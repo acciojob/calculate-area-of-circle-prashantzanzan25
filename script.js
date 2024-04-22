@@ -1,14 +1,9 @@
-function calculateArea() {
-	// Write your code here
-	const radius = prompt("Enter the radius of the circle:");
-    
-	if (!isNaN(radius) && parseFloat(radius) > 0) {
-        const area = Math.PI * parseFloat(radius) * parseFloat(radius);
-        alert(`The area of the circle with radius ${radius} is ${area.toFixed(2)}`);
-    } 
-	else {
-        alert("Invalid input. Please enter a positive number for the radius.");
-    }
+#function calculateArea() {
+	// Get the radius from the user using the prompt() function
+    let radius = prompt("Enter the radius of the circle:");
+	let ans = (Math.PI * radius * radius).toFixed(2)
+    // write you code here and display the result to the user
+	alert(`The area of the circle with radius ${radius} is ${ans}`);
+           
 }
-
 calculateArea();
