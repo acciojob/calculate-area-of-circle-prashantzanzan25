@@ -1,4 +1,4 @@
-###function calculateArea() {
+function calculateArea() {
 	// Write your code here
 	const radius = prompt("Enter the radius of the circle:");
     
